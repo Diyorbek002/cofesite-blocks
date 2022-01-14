@@ -1,0 +1,54 @@
+footer{
+    background-color: #2C343E;
+}
+
+.slack{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 47px 85px 47px 85px;
+}
+.slack__box{
+    display: flex;
+    width: 622px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slack__lists{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.slack__item + .slack__item{
+    margin-left: 30px;
+    color:#83888F;
+}
+
+.slack__link{
+    font-family: "Barlow";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #83888F;
+}
+
+.ebay__icons{
+    display: flex;
+    margin: 0;
+}
+
+
+.ebay__icons{
+    align-items: center;
+    padding: 0;
+}
+
+.ebay__icon{
+    margin-left: 30px;
+    list-style: none;
+}

@@ -1,0 +1,32 @@
+.cofee__user{
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+    margin-bottom: 168px;
+}
+
+.cofee__img{
+    border-radius: 10px;
+}
+
+.cofee__info{
+    width: 540px;
+    margin: 90px 0 0 125px;
+}
+
+.cofee__title{
+    margin:0 0 32px 0;
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 40px;
+    color: #333D4B;
+    margin-bottom: 32px;
+}
+
+.cofee__desc{
+    margin: 0;
+    font-family: "Barlow";
+    line-height: 26px;
+    color: #333D4B;
+    opacity: 0.8;
+}

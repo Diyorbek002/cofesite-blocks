@@ -1,0 +1,33 @@
+.hero{
+    margin-top: 43px;
+    margin-bottom: 168px;
+    background-image: url("../images/header-cofee.png");
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.hero__user{
+    padding: 137px 0 0 85px;
+}
+
+.hero__title{
+    margin:0 0 32px 0;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+
+.hero__desc{
+    width: 445px;
+    margin: 0;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}

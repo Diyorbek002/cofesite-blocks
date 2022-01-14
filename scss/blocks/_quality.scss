@@ -1,0 +1,40 @@
+.quality__user{
+    position: relative;
+    z-index: 1;
+    background-image: url("../images/grey.png");
+    background-repeat: no-repeat;
+    height: 474px;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 168px;
+}
+
+.quality__item{
+    width: 540px;
+    margin: 100px 0 0 85px;
+}
+
+.quality__title{
+    margin:0 0 32px 0;
+    font-family: "Fraunces";
+    color: #FEFCF7;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.quality__desc{
+    margin: 0;
+    color: #FEFCF7;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.8;
+}
+
+.quality__subitem__img{
+    position: absolute;
+    z-index: 2;
+    margin-left: 125px;
+    top:-88px;
+    right:85px;
+    
+}
