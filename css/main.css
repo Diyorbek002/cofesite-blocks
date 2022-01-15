@@ -495,6 +495,8 @@ img {
 
 .cofee__img {
   border-radius: 10px;
+  width: 485px;
+  height: 606px;
 }
 
 .cofee__info {
@@ -559,6 +561,7 @@ img {
   margin-left: 125px;
   top: -88px;
   right: 85px;
+  border-radius: 10px;
 }
 
 .last__wrapper {
