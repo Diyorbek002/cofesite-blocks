@@ -3,6 +3,13 @@
   margin-left: auto;
   justify-content: space-between;
   align-items: center;
+  padding: 43px 0;
+}
+
+.box__button{
+  display: none;
+  border: none;
+  background-color: transparent;
 }
 
 .list{
@@ -10,6 +17,7 @@
   list-style: none;
   text-decoration: none;
   align-items: center;
+  margin: 0;
   padding: 0;
 }
 
@@ -24,4 +32,21 @@
   font-weight: bold;
   font-size: 12px;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width:728px){
+  .list{
+    display: none;
+  }
+
+  .box__button{
+    display: block;
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width:426px){
+  .box__pic{
+    max-width: 163px;
+  }
 }

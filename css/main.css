@@ -397,6 +397,7 @@ img {
 }
 
 .container {
+  width: 100%;
   max-width: 1320px;
   margin: 0 auto;
   padding: 0 20px;
@@ -424,6 +425,13 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 43px 0;
+}
+
+.box__button {
+  display: none;
+  border: none;
+  background-color: transparent;
 }
 
 .list {
@@ -435,6 +443,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0;
   padding: 0;
 }
 
@@ -451,16 +460,37 @@ img {
   text-transform: uppercase;
 }
 
+@media only screen and (max-width: 728px) {
+  .list {
+    display: none;
+  }
+  .box__button {
+    display: block;
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .box__pic {
+    max-width: 163px;
+  }
+}
+
 .hero {
-  margin-top: 43px;
   margin-bottom: 168px;
   background-image: url("../images/header-cofee.png");
   background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 137px 0;
+  border-radius: 10px;
   height: 450px;
 }
 
 .hero__user {
-  padding: 137px 0 0 85px;
+  max-width: 445px;
+  margin-right: 0 auto;
+  margin-left: 85px;
 }
 
 .hero__title {
@@ -474,7 +504,6 @@ img {
 }
 
 .hero__desc {
-  width: 445px;
   margin: 0;
   font-family: "Barlow";
   font-style: normal;
@@ -482,6 +511,124 @@ img {
   font-size: 16px;
   line-height: 26px;
   color: #FEFCF7;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 945px) {
+  .hero {
+    background-position: calc(50% + 160px) top;
+    padding: 118px 0;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .hero {
+    background-position: calc(50% + 150px) top;
+    padding: 118px 0;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .hero {
+    background-position: calc(50% + 120px) top;
+    padding: 118px 0;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .hero {
+    background-position: calc(50% + 95px) top;
+    padding: 118px 0;
+  }
+}
+
+@media only screen and (max-width: 728px) {
+  .hero {
+    background-position: calc(50% + 70px) top;
+    padding: 118px 0;
+  }
+  .hero__user {
+    max-width: 398px;
+    margin: 0 auto;
+    margin-left: 58px;
+  }
+  .hero__title {
+    font-size: 32px;
+  }
+  .hero__desc {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .hero {
+    background-position: calc(50% + 40px) top;
+    padding: 118px 0;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .hero {
+    background-position: calc(75% + 20px) top;
+    padding: 118px 0;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .hero {
+    background-position: calc(50% + 40px) top;
+    padding: 118px 0;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .hero {
+    background-position: calc(50% + 20px) top;
+    padding: 118px 0;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .hero {
+    background-position: calc(75% + 180px) top;
+    padding: 118px 0;
+  }
+  .hero__user {
+    margin-left: 24px;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .hero {
+    background-position: calc(75% + 165px) top;
+    padding: 118px 0;
+  }
+  .hero__user {
+    margin-left: 24px;
+    padding: 0 24px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .hero {
+    background-position: calc(75% + 150px) top;
+    padding: 118px 0;
+  }
+  .hero__user {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .hero {
+    background-position: calc(75% + 150px) center;
+    padding: 118px 0;
+  }
+  .hero__user {
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 .cofee__user {
