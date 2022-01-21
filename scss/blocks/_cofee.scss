@@ -1,6 +1,5 @@
 .cofee__user{
     display: flex;
-    width: 1110px;
     margin: 0 auto;
     margin-bottom: 168px;
 }
@@ -31,4 +30,155 @@
     line-height: 26px;
     color: #333D4B;
     opacity: 0.8;
+}
+
+@media only screen and (max-width:1315px){
+    .cofee__user{
+        margin-bottom: 350px;
+    }
+}
+
+@media only screen and (max-width:960px){
+    .cofee__info{
+        width: 540px;
+        margin: 70px 0 0 100px;
+    }
+}
+
+@media only screen and (max-width:934px){
+    .cofee__info{
+        width: 540px;
+        margin: 70px 0 0 100px;
+    }
+    .cofee__title{
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width:839px){
+    .cofee__img{
+        width: 281px;
+        height:470px;
+    }
+
+    .cofee__info{
+        margin: 8px 0 0 69px;
+        width: 339px;
+    }
+
+    .cofee__desc{
+        font-size: 15px;
+        line-height: 26px;
+    }
+}
+
+@media only screen and (max-width:812px){
+    .cofee__desc{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width:769px){
+    .container{
+        width: 100%;
+        max-width: 769px;
+        margin: 0 auto;
+        padding: 0 40px;
+      }
+
+    .cofee__img{
+        width: 281px;
+        height:470px;
+    }
+
+    .cofee__info{
+        margin: 8px 0 0 69px;
+        width: 339px;
+    }
+
+    .cofee__title{
+        font-size: 32px;
+    }
+
+    .cofee__desc{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+// @media only screen and (max-width:787px){
+//     // .cofee__user{
+//     //     display: inline-block;
+//     // }
+
+//     .cofee__info{
+//         margin: 0 auto;
+//         width: 339px;
+//     }
+
+//     .cofee__img{
+//         margin-bottom: 30px;
+//         width: 327px;
+//         height:400px;
+//     }
+
+
+//     .cofee__desc{
+//         font-size: 15px;
+//         line-height: 25px;
+//     }
+// }
+
+
+@media only screen and (max-width:707px){
+    .cofee__user{
+        display: inline-block;
+    }
+
+    .cofee__info{
+        margin: 0 auto;
+        width: 339px;
+    }
+
+    .cofee__img{
+        margin-bottom: 30px;
+        width: 327px;
+        height:400px;
+    }
+
+
+    .cofee__desc{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+
+@media only screen and (max-width:667px){
+    .cofee__user{
+        display: inline-block;
+    }
+
+    .cofee__img{
+        margin-bottom: 30px;
+        width: 327px;
+        height:400px;
+    }
+
+    .cofee__info{
+        margin: 0 auto;
+        width: 339px;
+    }
+}
+@media only screen and (max-width:440px){
+    .container{
+        width: 100%;
+        max-width: 839px;
+        padding: 0 24px;
+    }
+}
+
+@media only screen and (max-width:385px){
+
 }

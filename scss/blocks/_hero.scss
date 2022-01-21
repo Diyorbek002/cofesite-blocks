@@ -36,6 +36,13 @@
     opacity: 0.8;
 }
 
+@media only screen and (max-width:1024px){
+    .hero{
+        margin-bottom: 144px;
+    }
+}
+
+
 @media only screen and (max-width:945px){
     .hero{
         background-position: calc(50% + 160px) top;
@@ -152,6 +159,7 @@
 
 @media only screen and (max-width:426px){
     .hero{
+        margin-bottom: 120px;
         background-position: calc(75% + 150px) center;
         padding: 118px 0;
     }
