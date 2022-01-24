@@ -53,3 +53,34 @@ footer{
     list-style: none;
 }
 
+@media only screen and (max-width:768px){
+    .slack{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slack__box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slack__logo{
+        padding-bottom: 34px;
+    }
+
+    .slack__item{
+        padding-bottom: 65px;
+    }
+
+    .ebay{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:426px){
+    .slack{
+        margin: 0 auto;
+        padding: 54px;
+    }
+}
