@@ -797,6 +797,9 @@ img {
     max-width: 839px;
     padding: 0 24px;
   }
+  .cofee__info {
+    width: 327px;
+  }
 }
 
 .quality {
